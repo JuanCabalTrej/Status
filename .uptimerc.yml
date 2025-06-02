@@ -1,0 +1,26 @@
+owner: JuanCabalTrej
+repo: Status
+
+# Sites being monitored
+sites:
+  - name: Skyward
+    url: url: https://skyward.iscorp.com/scripts/wsisa.dll/WService=wsfindelvalleisdtx/seplog01.w
+  - name: Eduphoria
+    url: https://eduphoria.del-valle.k12.tx.us/authdistrict/login
+  - name: Incident IQ
+    url: https://dvisd.incidentiq.com/
+
+status-website:
+  # Add custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment `baseUrl` line if you don't have a custom domain and add your repo name there
+  # cname:
+  baseUrl: /Status
+  logoUrl: 
+  name: DVISD Status Website
+  introTitle: "**Status** is the live uptime monitor and status page for Del Valle ISD."
+  introMessage: DVISD Status Page
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
