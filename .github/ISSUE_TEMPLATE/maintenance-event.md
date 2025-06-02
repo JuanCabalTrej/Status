@@ -10,7 +10,7 @@ assignees: ''
 <!--
 start: 2024-08-24T13:00:00.220Z
 end: 2024-06-24T14:00:00.220Z
-expectedDown: google, hacker-news
+expectedDown: google, etc.
 -->
 
 **Additional Context**
